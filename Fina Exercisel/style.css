@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #555;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav a {
+    margin: 0 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+  }
+  
+  .sidebar, .main-content, .contact {
+    width: 30%;
+    padding: 1em;
+    background-color: #e4e4e4; /* Light gold background */
+  }
+  
+  .main-content img {
+    max-width: 100%;
+    max-height: 200px; /* Set your desired maximum height here */
+    width: auto;
+    height: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+  }
+  
